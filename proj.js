@@ -122,59 +122,59 @@ h45.textContent=  `${startval5}%`;
 card5.style.background=`conic-gradient( rgb(75, 75, 77)${startval5 * 3.5}deg,#333 0deg)`;
 })
 
-const prev=document.querySelector(".prev")
-const next=document.querySelector(".next")
-const h4=document.querySelector(".cert-h4")
-const img2=document.querySelector(".cert-img")
+// const prev=document.querySelector(".prev")
+// const next=document.querySelector(".next")
+// const h4=document.querySelector(".cert-h4")
+// const img2=document.querySelector(".cert-img")
 
-const data=[
-    {
-        coursestype:"html",
-             Image:"https://i.ibb.co/C6DPQQn/Html-0001.jpg",
+// const data=[
+//     {
+//         coursestype:"html",
+//              Image:"https://i.ibb.co/C6DPQQn/Html-0001.jpg",
     
-        },
-    {
-        coursestype:"css",
-            Image:"https://i.ibb.co/hDNMSyf/css.jpg",
-        },
-{
-            coursestype:"bootstrap",
-            Image:"https://i.ibb.co/ydgr7wN/Bootstrap-0001.jpg",
-        },
+//         },
+//     {
+//         coursestype:"css",
+//             Image:"https://i.ibb.co/hDNMSyf/css.jpg",
+//         },
+// {
+//             coursestype:"bootstrap",
+//             Image:"https://i.ibb.co/ydgr7wN/Bootstrap-0001.jpg",
+//         },
         
-        {
-            coursestype:"javascript",
-            Image:"https://i.ibb.co/VmbjJmp/Javascript-0001.jpg",
-        },
-        {
-            coursestype:"jquery",
-            Image:"https://i.ibb.co/sVk9JTv/Jquery-0001.jpg",
-        },
+//         {
+//             coursestype:"javascript",
+//             Image:"https://i.ibb.co/VmbjJmp/Javascript-0001.jpg",
+//         },
+//         {
+//             coursestype:"jquery",
+//             Image:"https://i.ibb.co/sVk9JTv/Jquery-0001.jpg",
+//         },
 
             
-    ]
-let index=0;
-window.addEventListener("DOMContentLoaded",function(){
-    const certcarousel=data[0]
-    load(certcarousel)
-})
-function load(data){
-img2.src=data.Image;
-h4.textContent=data.coursestype;
-}
-next.addEventListener("click",()=>{
-index++
-if(index > data.length ){
-index=0
+//     ]
+// let index=0;
+// window.addEventListener("DOMContentLoaded",function(){
+//     const certcarousel=data[0]
+//     load(certcarousel)
+// })
+// function load(data){
+// img2.src=data.Image;
+// h4.textContent=data.coursestype;
+// }
+// next.addEventListener("click",()=>{
+// index++
+// if(index > data.length ){
+// index=0
+// // load(data[index])
+// }
 // load(data[index])
-}
-load(data[index])
-})
-prev.addEventListener("click",()=>{
-    index--;
+// })
+// prev.addEventListener("click",()=>{
+//     index--;
 
-    if(index < 0){
-        index=data.length-1
-        }
-        load(data[index])
-})
+//     if(index < 0){
+//         index=data.length-1
+//         }
+//         load(data[index])
+// })
