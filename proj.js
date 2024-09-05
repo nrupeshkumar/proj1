@@ -130,11 +130,11 @@ const img2=document.querySelector(".cert-img")
 const data=[
     {
         coursestype:"html",
-            Image:"https://i.ibb.co/C6DPQQn/Html-0001.jpg",,
+            Image:"https://i.ibb.co/C6DPQQn/Html-0001.jpg",
         },
     {
         coursestype:"css",
-            Image:"C:\Users/rupes/OneDrive/Documents/css.jpg",
+            Image:"https://i.ibb.co/C6DPQQn/Html-0001.jpg",
         },
 {
             coursestype:"bootstrap",
