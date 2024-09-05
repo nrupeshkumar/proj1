@@ -134,20 +134,20 @@ const data=[
         },
     {
         coursestype:"css",
-            Image:"https://i.ibb.co/C6DPQQn/Html-0001.jpg",
+            Image:"https://i.ibb.co/hDNMSyf/css.jpg",
         },
 {
             coursestype:"bootstrap",
-            Image:"C:\Users/rupes/OneDrive/Documents/bootstrap-0001.jpg",
+            Image:"https://i.ibb.co/ydgr7wN/Bootstrap-0001.jpg",
         },
         
         {
             coursestype:"javascript",
-            Image:"C:\Users/rupes/OneDrive/Documents/javascript-0001.jpg",
+            Image:"https://i.ibb.co/VmbjJmp/Javascript-0001.jpg",
         },
         {
             coursestype:"jquery",
-            Image:"C:\Users/rupes/OneDrive/Documents/jquery-0001.jpg",
+            Image:"https://i.ibb.co/sVk9JTv/Jquery-0001.jpg",
         },
 
             
