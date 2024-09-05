@@ -298,94 +298,6 @@ width: 100%;
 .card1 li {
     padding: 10px 0px;
 }
-/* cert-section */
-.cert-page{
-    position:relative;
-    height: 100vh;
-    min-height: 700px;
-    font-family: PlaywriteUSModern-VariableFont_wght;
-}
-.certi-title{
-    margin-bottom: 3rem;
-    margin-top: 3rem;
-}
-.certi-title h1{
-    text-align: center;
-}
-.certi-mainpart{
-    display: flex;
-}
-.certi-area1{
-    width: 50%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.certi-area2{
-    width: 50%;
-    
-}
-.certi-area2 .certi-part2{
-display: flex;
-align-items: center;
-justify-content: center;
-width: 100%;
-}
-.certi-part1{
-    width: 350px;
-    height: 290px;
-    background-color:var(--background-color);
-     /* overflow: hidden;  */
-    position: relative;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border-radius: 4px;
-    box-shadow: 0px 5px 15px rgba(0,0,0, 0.15);
-}
-.certi-container{
-    height: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-}
-.cert-imgbox{
-    width: 90%;
-    height: 90%;
-    border-radius: 4px;
-}
-.cert-imgbox img{
-    width: 100%;
-    border-radius:4px ;
-}
-.cert-imgbox .cert-h4{
-    padding: 0px 0px;
-    font-size: 20px;
-    font-weight: 600;
-    text-transform: uppercase;
-    color: #5934c7;
-}
-.buttons{
-    position: absolute;
-    left: 0;
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-button{
-    background-color: #784cfb;
-    border-radius: 4px;
-    box-shadow: 0px 5px 15px rgba(70, 121, 199, 0.45);
-    padding: 2px 5px;
-    border: none;
-    outline: none;
-    color: #f6f7fb;
-    font-weight: 500;
-}
-
 
 /* contact section */
 .contactpage{
@@ -728,30 +640,6 @@ justify-content: center;
     gap: 15px;
     justify-content: center;
 }
-.cert-page{
-}
-.certi-mainpart{
-    flex-direction: column;
-    gap: 30px 0px;
-}
-.certi-area1{
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.certi-area2{
-    width: 100%;
-}
-.contactpage{
-    
-}
-.cert-page{
-    background-color: ;
-    height: 100vh;
-    min-height: 800px;
-}
 }
 @media only screen and (min-width:200px) and (max-width:400px) {
     .homepage{
@@ -828,21 +716,8 @@ justify-content: center;
         gap: 15px;
         justify-content: center;
     }
-    .certi-mainpart{
-        flex-direction: column;
-        gap: 30px 0px;
+   
     }
-    .certi-area1{
-        width: 100%;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-    }
-    
-    .certi-area2{
-        width: 100%;
-    }
-}
 
 @media only screen and (min-width:400px) and (max-width:900px){
     .homecontent .exper-para{
@@ -863,19 +738,4 @@ justify-content: center;
 .aboutpage .col .ab-para{
     width: 100%;
 }  
-.certi-mainpart{
-    flex-direction: column;
-    gap: 30px 0px;
-}
-.certi-area1{
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.certi-area2{
-    width: 100%;
-}
-
 }
